@@ -1,0 +1,18 @@
+# Ignore datasets
+oxfordpets_dataset/
+dlvc/dataset/cityscapes_assg2/
+
+# Ignore logs and outputs
+wandb/
+checkpoints_segformer/
+saved_fcn_pretrained/
+
+# Ignore temporary files
+*.pt
+*.pth
+*.pkl
+*.log
+*.json
+__pycache__/
+*.ipynb_checkpoints/
+
